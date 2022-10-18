@@ -63,16 +63,14 @@ a:hover {
 .main-nav a {
   display: block;
   padding: 0 1em;
-  /*background: #333;*/
   transition-property: background;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
   transition-timing-function: linear;
 }
 
 .main-nav a:focus,
 .main-nav a:hover {
-  background: orange;
-  color: #000;
+  background: darkgoldenrod;
 }
 
 /*wyrózniony element listy*/
