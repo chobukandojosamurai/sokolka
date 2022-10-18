@@ -114,3 +114,17 @@ a:hover {
     margin-left: 40px;
     font-size: 12px;
 }
+
+/*formatowanie stopki*/
+.main-footer-before {
+  display: block;
+  clear: both;
+}
+
+.main-footer {
+  background: #333;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  line-height: 50px;
+}
