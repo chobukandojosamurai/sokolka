@@ -43,3 +43,10 @@ a:hover {
   padding: 0;
   color: #fff;
 }
+
+/*sztuczka*/
+.main-nav::after {
+  content: '';
+  display: block;
+  clear: both;
+}
