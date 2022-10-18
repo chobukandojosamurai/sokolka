@@ -32,3 +32,14 @@ a:hover {
   font-weight: 400;
 }
 
+/*formatowanie nawigacji*/
+.main-nav {
+  background: #333;
+}
+
+/*formatowanie listy w nawigacji*/
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  color: #fff;
+}
