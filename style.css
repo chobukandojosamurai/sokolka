@@ -65,6 +65,12 @@ a:hover {
   padding: 0 1em
 }
 
+.main-nav a:focus,
+.main-nav a:hover {
+  background: orange;
+  color: #000;
+}
+
 /*wyrózniony element listy*/
 .main-nav ul .active {
   background: green;
