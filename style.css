@@ -19,10 +19,12 @@ a:hover {
   max-width: 1024px;
   margin: auto;
 }
+
 /*formatowanie nagłówka*/
 .main-header {
   height: 150px;
 }
+
 /*formatowanie H1 w nagłówku*/
 .main-header h1 {
   color: green;
