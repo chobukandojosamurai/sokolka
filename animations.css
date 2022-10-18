@@ -10,11 +10,11 @@
     top: -15px;
   }
   75% {
-
+    top: 90px;
   }
   100% {
-    left: 0;
-    top: 0;
+    left: -40px;
+    top: -15px;
   }
 }
 .main-header {
