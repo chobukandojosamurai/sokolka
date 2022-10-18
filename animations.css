@@ -1,9 +1,16 @@
 @keyframes slide {
   0% {
   }
-  50% {
+  25% {
     left: 515px;
     top: 75px;
+  }
+  50% {
+    left: 300px;
+    top: -15px;
+  }
+  75% {
+
   }
   100% {
     left: 0;
