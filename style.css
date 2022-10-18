@@ -57,6 +57,11 @@ a:hover {
 .main-nav ul li {
   float: left;
   line-height: 50px;
+}
+
+/*hiperłącza w liście*/
+.main-nav a {
+  display: block;
   padding: 0 1em
 }
 
