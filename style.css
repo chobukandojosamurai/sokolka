@@ -64,3 +64,16 @@ a:hover {
   background: green;
 }
 
+/*formatowanie sekcji*/
+.main-section {
+  width: 75%;
+  float: left;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+/*formatowanie panelu bocznego*/
+.main-aside {
+  width: 25%;
+  float: right;
+}
