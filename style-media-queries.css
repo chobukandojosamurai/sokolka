@@ -1,3 +1,16 @@
 @media screen and (max-width: 1024px) {
-    
+  /*formatowanie H1 w nagłówku*/
+  .main-header h1 {
+    text-align: center;
+  }
+  /*formatowanie listy w nawigacji*/
+  .main-nav ul {
+    height: unset;
+    text-align: center;
+  }
+
+  /*podpunkty listy*/
+  .main-nav ul li {
+    float: unset;
+  }
 }
