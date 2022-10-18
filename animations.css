@@ -1,7 +1,6 @@
 @keyframes slide {
   0% {
-    left: 0;
-    top: 0;
+
   }
   25% {
     left: -100px;
@@ -32,8 +31,8 @@
   animation: slide 10s linear;
 }
 .ball {
-  top: 0;
-  left: 0;
+  top: -15px;
+  left: -40px;
   background: green;
   border-radius: 50%;
   height: 50px;
