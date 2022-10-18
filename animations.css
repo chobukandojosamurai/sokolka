@@ -3,12 +3,15 @@
     left: 0;
     top: 0;
   }
+  25% {
+    left: -100px;
+  }
   50% {
     left: 150px;
     top: 50px;
   }
   100% {
-    left: 500px;
+    left: 200px;
     top: 0;
   }
 }
@@ -18,15 +21,15 @@
 .stage {
   background: #eaeaed;
   border-radius: 6px;
-  height: 100px;
+  height: 150px;
   position: absolute;
   right: 0;
   top: 0;
-  width: 300px;
+  width: 600px;
   overflow: hidden;
 }
 .stage:hover .ball {
-  animation: slide 2s linear;
+  animation: slide 10s linear;
 }
 .ball {
   top: 0;
