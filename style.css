@@ -62,7 +62,11 @@ a:hover {
 /*hiperłącza w liście*/
 .main-nav a {
   display: block;
-  padding: 0 1em
+  padding: 0 1em;
+  /*background: #333;*/
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
 }
 
 .main-nav a:focus,
