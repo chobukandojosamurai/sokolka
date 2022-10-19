@@ -21,24 +21,26 @@
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur suscipit amet quisquam corporis iusto expedita necessitatibus, dolores ipsum quasi obcaecati aperiam deserunt quae facilis minima molestiae, laudantium, nemo consectetur at?</p>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid libero, nam sed minima, suscipit magni quibusdam aperiam distinctio maiores tempora, placeat ipsa perspiciatis repellendus inventore error. Placeat incidunt officia ea!</p>
     <script>
-        // poczekanie na załadowanie dokumentu i wszystkich jego części
-        $(document).ready(function(event){ 
-            $('.feature');           // Class selector
-            $('li strong');          // Descendant selector
-            $('em, i');              // Multiple selector
-            $('a[target="_blank"]'); // Attribute selector
-            $('p').eq(2);     // Pseudo-class selector
-        });
+    // poczekanie na załadowanie dokumentu i wszystkich jego części
+    $(document).ready(function(event){ 
+        //    $('.feature');           // Class selector
+        //    $('li strong');          // Descendant selector
+        //    $('em, i');              // Multiple selector
+        //    $('a[target="_blank"]'); // Attribute selector
+        //    $('p').eq(2);     // Pseudo-class selector
         // stosowanie zdarzeń dla elementu
-        $('div').click(function(event){ 
-            $(this);
-        }); 
+        // $('div').click(function(event){ 
+        //    $(this);
+        // }); 
         // stosowanie zaprzeczeń
-        $('div').not('.type');
+        // $('div').not('.type');
         // nadanie klasy dla akapitów (p)
         $('p').addClass('akapit');
         // usunięcie klasy dla pierwszego akapitu
-        $('p').eq(0).removeClass();        
+        $('p').eq(0).removeClass(); 
+        // dodanie elementu przez jQuery
+        $('body').append( '<div class="dodatek"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid libero, nam sed minima, suscipit magni quibusdam aperiam distinctio maiores tempora, placeat ipsa perspiciatis repellendus inventore error. Placeat incidunt officia ea!</p></div>' );
+    });
     </script>
 </body>
 </html>
