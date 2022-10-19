@@ -1,1 +1,6 @@
-https://getbootstrap.com/
+Oficjalna strona Bootstrap 
+- https://getbootstrap.com/
+
+Bezpłatne szablony Bootstrap
+- https://designhooks.com/bootstrap/
+- https://www.wrappixel.com/templates/category/free-templates/
