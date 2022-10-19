@@ -27,7 +27,7 @@
             $('li strong');          // Descendant selector
             $('em, i');              // Multiple selector
             $('a[target="_blank"]'); // Attribute selector
-            $('p:nth-child(2)');     // Pseudo-class selector
+            $('p').eq(2);     // Pseudo-class selector
         });
         // stosowanie zdarzeń dla elementu
         $('div').click(function(event){ 
@@ -37,6 +37,8 @@
         $('div').not('.type');
         // nadanie klasy dla akapitów (p)
         $('p').addClass('akapit');
+        // usunięcie klasy dla pierwszego akapitu
+        $('p').eq(0).removeClass();        
     </script>
 </body>
 </html>
