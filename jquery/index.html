@@ -18,7 +18,11 @@
     <script>
         // poczekanie na załadowanie dokumentu i wszystkich jego części
         $(document).ready(function(event){ 
-    
+            $('.feature');           // Class selector
+            $('li strong');          // Descendant selector
+            $('em, i');              // Multiple selector
+            $('a[target="_blank"]'); // Attribute selector
+            $('p:nth-child(2)');     // Pseudo-class selector
         });
     </script>
 </body>
